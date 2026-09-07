@@ -33,7 +33,6 @@ This repository contains my projects, workflows, and practical exercises develop
 * **EN:** Automation that continuously collects articles via an RSS feed, applies an intelligent filter focused on the keyword "Automação" to select only relevant content, and automatically records structured data into Google Sheets.
 
 ## Esquema do Fluxo / Workflow Scheme
-![RSS Notícias](./rss-noticias.png)
 
 ## Sobre o Projeto / About the Project
 
@@ -46,3 +45,5 @@ This repository contains my projects, workflows, and practical exercises develop
   * **RSS Module (Trigger):** Acts as the starting point of the scenario, responsible for extracting and continuously monitoring new items and articles published through the configured RSS feed.
   * **Intelligent Filter (Keyword Filtering):** Acts as a selective barrier right after collection, applying a condition based on a specific keyword (in this case, "Automação") to ensure only strictly relevant articles move forward in the workflow.
   * **Google Sheets Module (Final Action):** Represents the final destination of the filtered data, responsible for cleanly and structurally appending a new row with information such as the title, date, and link of the respective news article.
+ 
+    ![RSS Notícias](./RSS%20not%C3%ADcias.png)
