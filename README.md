@@ -24,6 +24,7 @@ This repository contains my projects, workflows, and practical exercises develop
   * **Router Module (Splitter):** Serves as the flow control center, receiving the data retrieved by the previous module and splitting the main route into independent parallel paths.
   * **Filters with Conditional Logic (Temperature Filters and AND/OR Rules):** Act as selective barriers on each branch of the Router, applying strict mathematical rules and logical operators (such as separating data based on specific temperature thresholds, e.g., above or below 20 degrees).
   * **Google Sheets Module (Final Action):** Represents the final destination of data along each path, responsible for cleanly and structurally appending a new row to the corresponding spreadsheet, ensuring records are properly categorized according to the met rule.
+  * ![Make Foundation Meteorologia](./make-foundation-metrologia.png)
  
     # 2. Filtro de Notícias por RSS / RSS News Filter Automation
 
